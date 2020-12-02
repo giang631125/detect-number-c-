@@ -11,6 +11,8 @@ using namespace cv;
 // #define file_name_image_test    "2.JPG"
 #define file_name_image_test    "image-test.JPG"
 
+#define git_clone abcd
+
 void convert_to_1d(Mat_<float> Mat_2d, Mat_<float> Mat_out)
 {
     for(int i=0; i<size_image; i++)
